@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtAngka1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtOperator"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        android:text="+"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtAngka2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        android:text="1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtViewAssignment"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        android:text="="
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:text="1"
+        android:textAlignment="center" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aplikasi Kalkulator</string>
+    <string name="shared_key">AplikasiKalkulator</string>
+    <string name="kalkulator_key">kalkulator</string>
+</resources>
